@@ -1,0 +1,110 @@
+.header {
+    background-image: url(../../assets/img/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 896px;
+
+    .nav {
+        display: flex;
+        align-items: baseline;
+        justify-content: flex-start;
+
+        .logo {
+            width: 160px;
+            height: 43px;
+        }
+
+        .list {
+            list-style-type: none;
+            margin-left: 50px;
+        }
+
+        .item {
+            .link {
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                text-decoration: none;
+                display: inline-block;
+                margin: 0 25px;
+                color: #FFFFFF;
+            }
+
+            .active {
+                text-decoration-line: underline;
+                background: linear-gradient(92.09deg, #5E3928 -79.4%, #E4A16F 84.12%);
+            }
+        }
+
+        .nav-left {
+            margin-left: 460px;
+
+            img {
+                margin: 0 10px;
+            }
+        }
+    }
+
+    .hero {
+        margin-top: 145px;
+
+        .title {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 100px;
+            color: #FFFFFF;
+        }
+
+        .liner {
+            margin-top: 50px;
+            width: 623px;
+            border: 1px solid #FFFFFF;
+        }
+
+        .text {
+            font-style: normal;
+            font-weight: 800;
+            font-size: 50px;
+            line-height: 96.4%;
+            width: 533px;
+            height: 96px;
+            margin-top: 50px;
+            color: #FFFFFF;
+        }
+
+        .price {
+            width: 327px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 40px;
+        }
+
+        .span-1 {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 30px;
+            color: #FFFFFF;
+        }
+
+        .span-2 {
+            font-style: normal;
+            font-weight: 800;
+            font-size: 30px;
+            color: #FFFFFF;
+        }
+
+        .btn {
+            font-style: normal;
+            font-weight: 800;
+            font-size: 18px;
+            color: #FFFFFF;
+            border: none;
+            display: inline-block;
+            padding: 16px 132px;
+            margin-top: 41px;
+            background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
+        }
+    }
+}
