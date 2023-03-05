@@ -1,0 +1,181 @@
+.product {
+    .center {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 50px;
+        text-align: center;
+        color: #031412;
+    }
+
+    .block-2 {    
+        .cards {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 40px;
+        }
+    
+        .card-1 {
+            width: 446px;
+            height: 600px;
+    
+            .img {
+                width: 446px;
+                height: 491px;
+                position: relative;
+            }
+
+            .like-btn {
+                position: absolute;
+                left: 542px;
+                width: 50px;
+                height: 65px;
+                border: none;
+                background-color: #FFFFFF;
+            }
+
+            .like {
+                width: 30px;
+                height: 26px;
+            }
+
+            .info {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding-top: 36px;
+            }
+    
+            .text {
+                font-style: normal;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 96.4%;
+                width: 257px;
+                height: 38px;
+                color: #031412;
+            }
+    
+            .price {
+                font-style: normal;
+                font-weight: 800;
+                font-size: 30px;
+                color: #031412;
+            }
+        }
+    
+        .card-2 {
+            width: 446px;
+            height: 600px;
+    
+            .img {
+                width: 446px;
+                height: 491px;
+                position: relative;
+                z-index: 1;
+            }
+
+            .like-btn {
+                position: absolute;
+                left: 1070px;
+                width: 50px;
+                height: 65px;
+                border: none;
+                z-index: 2;
+                background-color: #FFFFFF;
+            }
+
+            .like {
+                width: 30px;
+                height: 26px;
+            }
+    
+            .info {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding-top: 36px;
+            }
+    
+            .text {
+                font-style: normal;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 96.4%;
+                width: 257px;
+                height: 38px;
+                color: #031412;
+            }
+    
+            .price {
+                font-style: normal;
+                font-weight: 800;
+                font-size: 30px;
+                color: #031412;
+            }
+        }
+    
+        .card-3 {
+            width: 446px;
+            height: 600px;
+    
+            .img {
+                width: 446px;
+                height: 491px;
+                z-index: 1;
+                position: relative;
+            }
+    
+            .like-btn {
+                position: absolute;
+                left: 1600px;
+                width: 50px;
+                height: 65px;
+                border: none;
+                z-index: 2;
+                background-color: #FFFFFF;
+            }
+
+            .like {
+                width: 30px;
+                height: 26px;
+            }
+
+            .info {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding-top: 36px;
+            }
+    
+            .text {
+                font-style: normal;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 96.4%;
+                width: 257px;
+                height: 38px;
+                color: #031412;
+            }
+    
+            .price {
+                font-style: normal;
+                font-weight: 800;
+                font-size: 30px;
+                color: #031412;
+            }
+        }
+
+        .btn {
+            font-style: normal;
+            font-weight: 800;
+            font-size: 18px;
+            color: #FFFFFF;
+            border: none;
+            display: inline-block;
+            padding: 16px 78px;
+            margin: 90px 570px 0 570px;
+            background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
+        }
+    }
+}
