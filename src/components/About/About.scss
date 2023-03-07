@@ -1,0 +1,67 @@
+.about {
+    .center {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 50px;
+        text-align: center;
+        padding-top: 70px;
+        color: #031412;
+    }
+
+    .cards {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 40px 0 110px 0;
+    }
+
+    .card {
+        width: 446px;
+        height: 332px;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
+
+        .photo {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .user {
+            width: 63px;
+            height: 63px;
+            padding: 21px 0 0 30px;
+        }
+
+        .union {
+            width: 143px;
+            height: 90px;
+        }
+
+        .title {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 25px;
+            padding: 0 0 0 30px;
+            color: #031412;
+        }
+
+        .text {
+            font-style: italic;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 134.4%;
+            width: 406px;
+            height: 173px;
+            padding: 18px 0 0 30px;
+            color: #031412;
+        }
+
+        .date {
+            font-style: normal;
+            font-weight: 800;
+            font-size: 14px;
+            padding: 18px 0 0 30px;
+            color: #031412;
+        }
+    }
+}

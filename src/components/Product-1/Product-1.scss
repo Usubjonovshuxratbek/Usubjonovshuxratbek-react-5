@@ -1,0 +1,75 @@
+.product-inner {
+    .block-1 {
+        .center {
+            font-style: normal;
+                font-weight: 400;
+                font-size: 50px;
+                text-align: center;
+                margin-top: 45px;
+                color: #031412;
+        }
+
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 40px;
+        }
+
+        .card-1 {
+            width: 445px;
+            height: 491px;
+            background-image: url(../../assets/img/product-4.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .card-2 {
+            width: 445px;
+            height: 491px;
+            background-image: url(../../assets/img/product-5.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .card-3 {
+            width: 445px;
+            height: 491px;
+            background-image: url(../../assets/img/product-6.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .card-4 {
+            width: 445px;
+            height: 491px;
+            background-image: url(../../assets/img/product-7.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .card-5 {
+            width: 445px;
+            height: 491px;
+            background-image: url(../../assets/img/product-8.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .card-6 {
+            width: 445px;
+            height: 491px;
+            background-image: url(../../assets/img/product-9.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    }
+    
+    
+}

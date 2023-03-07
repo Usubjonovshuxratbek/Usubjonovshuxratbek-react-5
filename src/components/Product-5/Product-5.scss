@@ -1,13 +1,14 @@
-.product {
-    .center {
-        font-style: normal;
-        font-weight: 400;
-        font-size: 50px;
-        text-align: center;
-        color: #031412;
-    }
-
-    .block-2 {    
+.products-5 {
+    .inner {
+        .center {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 50px;
+            text-align: center;
+            padding-top: 100px;
+            color: #031412;
+        }
+    
         .cards {
             display: flex;
             align-items: center;
@@ -17,33 +18,32 @@
     
         .card-1 {
             width: 446px;
-            height: 600px;
+            height: 650px;
+            position: relative;
     
             .img {
                 width: 446px;
                 height: 491px;
-                position: relative;
+                position: absolute;
+                z-index: 997;
             }
-
+    
             .like-btn {
                 position: absolute;
-                left: 542px;
-                width: 50px;
-                height: 65px;
+                z-index: 999;
                 border: none;
+                left: 400px;
                 background-color: #FFFFFF;
+                padding: 20px 10px;
             }
-
-            .like {
-                width: 30px;
-                height: 26px;
-            }
-
+    
             .info {
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
-                padding-top: 36px;
+                position: absolute;
+                top: 540px;
+                z-index: 999;
             }
     
             .text {
@@ -67,34 +67,30 @@
         .card-2 {
             width: 446px;
             height: 600px;
+            position: relative;
     
             .img {
                 width: 446px;
                 height: 491px;
-                position: relative;
-                z-index: 1;
+                position: absolute;
+                z-index: 997;
             }
-
+    
             .like-btn {
                 position: absolute;
-                left: 1070px;
-                width: 50px;
-                height: 65px;
+                z-index: 999;
                 border: none;
-                z-index: 2;
+                left: 400px;
                 background-color: #FFFFFF;
-            }
-
-            .like {
-                width: 30px;
-                height: 26px;
+                padding: 20px 10px;
             }
     
             .info {
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
-                padding-top: 36px;
+                position: absolute;
+                top: 540px;
             }
     
             .text {
@@ -118,29 +114,24 @@
         .card-3 {
             width: 446px;
             height: 600px;
+            position: relative;
     
             .img {
                 width: 446px;
                 height: 491px;
-                z-index: 1;
                 position: relative;
+                z-index: 997;
             }
     
             .like-btn {
                 position: absolute;
-                left: 1600px;
-                width: 50px;
-                height: 65px;
+                z-index: 999;
                 border: none;
-                z-index: 2;
+                left: 400px;
                 background-color: #FFFFFF;
+                padding: 20px 10px;
             }
-
-            .like {
-                width: 30px;
-                height: 26px;
-            }
-
+            
             .info {
                 display: flex;
                 align-items: center;
@@ -165,7 +156,7 @@
                 color: #031412;
             }
         }
-
+    
         .btn {
             font-style: normal;
             font-weight: 800;
@@ -174,7 +165,7 @@
             border: none;
             display: inline-block;
             padding: 16px 78px;
-            margin: 90px 570px 0 570px;
+            margin: 90px 570px 70px 570px;
             background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
         }
     }
