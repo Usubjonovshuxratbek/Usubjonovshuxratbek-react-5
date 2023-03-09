@@ -1,0 +1,60 @@
+.work {
+    margin-top: 30px;
+    height: 820px;
+    background-color: rgb(248, 236, 236);
+
+    .work-inner {
+        .center {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 50px;
+            text-align: center;
+            padding-top: 80px;
+            color: #031412;
+        }
+
+        .groups {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 9px;
+        }
+
+        .group {
+            .group-logo {
+                margin: 40px 0 0 0;
+                width: 76px;
+                height: 76px;
+            }
+
+            .title {
+                font-style: normal;
+                font-weight: 800;
+                font-size: 20px;
+                padding-top: 24px;
+                color: #031412;
+            }
+
+            .text {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                color: #031412;
+                width: 308px;
+                height: 57px;
+                padding-top: 15px;
+            }
+            
+            .select {
+                font-style: normal;
+                font-weight: 800;
+                font-size: 14px;
+                margin-top: 30px;
+                outline: none;
+                border: none;
+                background: linear-gradient(65.81deg, #5E3928 -24.09%, #E4A16F 104.02%);
+                background-clip: text;
+            }
+        }
+    }
+}

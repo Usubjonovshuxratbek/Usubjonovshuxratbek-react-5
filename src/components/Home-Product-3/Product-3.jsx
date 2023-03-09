@@ -1,26 +1,32 @@
 import React from 'react'
-import './Product-5.scss'
+import './Product-3.scss'
+import Container from '../Container/Container'
 import ProductOne from '../../assets/img/product-1.png'
 import ProductTwo from '../../assets/img/product-2.png'
-import ProductThree from '../../assets/img/product-3.png'
+import ProductThree from '../../assets/img/product-3.png';
 import ProductLike from '../../assets/img/card-like.png'
-import Container from '../Container/Container'
 
-const Product = () => {
+function Product() {
     return (
-        <section className='products-5'>
+        <section className='product'>
             <Container>
-                <div className="inner">
-                    <h3 className='center'>Скидки</h3>
+                <div className="product-inner">
+                    <h2 className='center'>новинки</h2>
                     <div className="cards">
                         <div className="card-1">
                             <img className='img' src={ProductOne} alt="" />
                             <button className='like-btn'>
                                 <img className='like' src={ProductLike} alt="" />
                             </button>
+                            <button className='sale'>Sale</button>
                             <div className="info">
-                                <p className='text'>Медный чайник с фарфоровой ручкой</p>
-                                <span className='price'>1 953 грн</span>
+                                <div className="info-text">
+                                    <p className='text'>Медный чайник с фарфоровой ручкой</p>
+                                </div>
+                                <div className="info-price">
+                                    <span className='old-price'>1 953 грн</span>
+                                    <span className='new-price'>1 953 грн</span>
+                                </div>
                             </div>
                         </div>
                         <div className="card-2">
@@ -51,4 +57,4 @@ const Product = () => {
     )
 }
 
-export default Product;
+export default Product

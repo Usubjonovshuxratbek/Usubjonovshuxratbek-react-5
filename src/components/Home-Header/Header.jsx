@@ -5,6 +5,7 @@ import Logo from '../../assets/img/logo.png'
 import Like from '../../assets/img/like.png'
 import User from '../../assets/img/user.png'
 import Save from '../../assets/img/save.png'
+import { Link, Outlet } from 'react-router-dom'
 
 function Header() {
   return (
@@ -17,18 +18,19 @@ function Header() {
       <div className="nav-center">
       <ul className='list'>
         <li className='item'>
-          <a className='link active' href="/">Каталог</a>
-          <a className='link' href="/">Новости</a>
-          <a className='link' href="/">Доставка</a>
-          <a className='link' href="/">О нас</a>
-          <a className='link' href="/">Контакты</a>
+        <Link className='link active' to='/katalog'>Каталог</Link>
+        <Link className='link' to='/novocti'>Новости</Link>
+        <Link className='link' to='/dostavka'>Доставка</Link>
+        <Link className='link' to='/onas'>О нас</Link>
+        <Link className='link' to='/kontakt'>Контакты</Link>
         </li>
+        <Outlet/>
       </ul>
       </div>
         <div className="nav-left">
-        <img src={Like} alt="" />
-        <img src={User} alt="" />
-        <img src={Save} alt="" />
+        <button className='btn-like'><img src={Like} alt="" /></button>
+        <button className='btn-user'><img src={User} alt="" /></button>
+        <button className='btn-save'><img src={Save} alt="" /></button>
         </div>
       </nav>
       <div className="hero">
