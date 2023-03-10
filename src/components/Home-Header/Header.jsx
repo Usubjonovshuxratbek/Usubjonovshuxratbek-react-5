@@ -21,7 +21,7 @@ function Header() {
         <Link className='link active' to='/katalog'>Каталог</Link>
         <Link className='link' to='/novocti'>Новости</Link>
         <Link className='link' to='/dostavka'>Доставка</Link>
-        <Link className='link' to='/onas'>О нас</Link>
+        <Link className='link' to='/about'>О нас</Link>
         <Link className='link' to='/kontakt'>Контакты</Link>
         </li>
         <Outlet/>

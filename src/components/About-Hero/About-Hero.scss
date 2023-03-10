@@ -1,0 +1,65 @@
+.about-hero {
+    background-color: #E5E5E5;;
+
+    .text {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        padding-top: 40px;
+        color: #031412;
+    }
+    .hero-inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .sub-title {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 100px;
+        color: #031412;
+    }
+
+    .liner {
+        width: 623px;
+        height: 0;
+        margin-top: 50px;
+        border: 1px solid #031412;
+    }
+
+    .title {
+        font-family: 'Mont';
+        font-style: italic;
+        font-weight: 600;
+        font-size: 50px;
+        background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        margin: 50px 0 0 70px;
+        width: 533px;
+        height: 116px;
+    }
+
+    .signature {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin-top: 30px;
+    }
+
+    .info {
+        p {
+            font-style: normal;
+            font-weight: 900;
+            font-size: 30px;
+            width: 165px;
+            height: 78px;
+            background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+    }
+}
